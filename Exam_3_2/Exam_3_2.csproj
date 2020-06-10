@@ -9,5 +9,16 @@
     <Folder Include="Mapping\" />
     <Folder Include="Model\" />
     <Folder Include="UML\" />
+    <Folder Include="Service\" />
+    <Folder Include="View\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Mapping\StorageProfile.cs" />
   </ItemGroup>
 </Project>
